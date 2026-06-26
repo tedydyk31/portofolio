@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
+<html lang="id" style="--custom-bg-overlay: rgba(10,42,64,0.45);"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tedy Kurniawan — Portofolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Archivo:wght@400;500;600;700;800&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
 <style>
   :root{
     --bg-deep:#0A2A40;
@@ -695,44 +694,44 @@
      login ini berfungsi). -->
 <!-- Netlify Identity dihapus — login kini pakai kata sandi lokal (localStorage) -->
 </head>
-<body>
+<body class="edit-mode">
 
 <!-- ICON LIBRARY -->
 <svg width="0" height="0" style="position:absolute">
   <defs>
-    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="6" r="1.6"/><path d="M12 7.6 L6 19 M12 7.6 L18 19"/><path d="M9 14 L15 14"/></symbol>
-    <symbol id="i-ruler" viewBox="0 0 24 24"><rect x="2.5" y="9" width="19" height="6" rx="0.5" transform="rotate(-25 12 12)"/><path d="M7.5 9.3 L8.6 11.6 M10.3 8 L11.4 10.3 M13.1 6.7 L14.2 9 M15.9 5.4 L17 7.7" transform="rotate(-25 12 12)"/></symbol>
-    <symbol id="i-calculator" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5"/><line x1="7.5" y1="6.5" x2="16.5" y2="6.5"/><line x1="7.5" y1="11" x2="9.5" y2="11"/><line x1="11" y1="11" x2="13" y2="11"/><line x1="14.5" y1="11" x2="16.5" y2="11"/><line x1="7.5" y1="14.5" x2="9.5" y2="14.5"/><line x1="11" y1="14.5" x2="13" y2="14.5"/><line x1="14.5" y1="14.5" x2="16.5" y2="14.5"/><line x1="7.5" y1="18" x2="9.5" y2="18"/><line x1="11" y1="18" x2="13" y2="18"/><line x1="14.5" y1="18" x2="16.5" y2="18"/></symbol>
-    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.5 C12 2.5 5.5 11 5.5 15.5 C5.5 19.1 8.4 22 12 22 C15.6 22 18.5 19.1 18.5 15.5 C18.5 11 12 2.5 12 2.5 Z"/></symbol>
-    <symbol id="i-river" viewBox="0 0 24 24"><path d="M3 5 C8 9 4 12 9 16 C13 19 11 21.5 11 21.5"/><path d="M9 3.5 C14 7.5 10 11 15 15 C19 18 17 20.5 17 20.5"/></symbol>
-    <symbol id="i-tsquare" viewBox="0 0 24 24"><path d="M4 4 V20 H20"/><path d="M4 4 L20 4 M8 4 V8 M12 4 V8 M16 4 V8 M4 16 H8 M4 12 H8"/></symbol>
-    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M4 6.5 L12 13 L20 6.5"/></symbol>
-    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3 C5 3 4 4 4 5 C4 14 10 20 19 20 C20 20 21 19 21 18 L21 15.3 C21 14.7 20.6 14.2 20 14 L16.2 12.9 C15.7 12.7 15.1 12.9 14.8 13.3 L13.4 15 C10.9 13.7 9 11.9 7.7 9.4 L9.4 8 C9.8 7.7 10 7.1 9.8 6.6 L8.7 2.8 C8.5 2.2 8 1.9 7.4 1.9 L6 3 Z"/></symbol>
-    <symbol id="i-link" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><text x="12" y="15.5" font-family="Space Grotesk, sans-serif" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">in</text></symbol>
-    <symbol id="i-emblem" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"/><line x1="14" y1="50" x2="86" y2="50"/><circle cx="50" cy="24" r="3" fill="currentColor" stroke="none"/><path d="M50 27 L36 46 M50 27 L64 46"/><path d="M22 58 C30 52 36 64 44 58 C48 55 52 61 56 58 C62 53 70 61 78 58"/></symbol>
-    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21 C4 16.5 7.5 14 12 14 C16.5 14 20 16.5 20 21"/></symbol>
-    <symbol id="i-building" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="19" rx="0.5"/><line x1="8" y1="6.5" x2="10" y2="6.5"/><line x1="13" y1="6.5" x2="15" y2="6.5"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="13" y1="10" x2="15" y2="10"/><line x1="8" y1="13.5" x2="10" y2="13.5"/><line x1="13" y1="13.5" x2="15" y2="13.5"/><rect x="10" y="17" width="4" height="5"/></symbol>
-    <symbol id="i-bridge" viewBox="0 0 24 24"><path d="M2 16 C2 16 4 9 12 9 C20 9 22 16 22 16"/><line x1="2" y1="19" x2="22" y2="19"/><line x1="5" y1="19" x2="5" y2="13.5"/><line x1="9" y1="19" x2="9" y2="10.2"/><line x1="15" y1="19" x2="15" y2="10.2"/><line x1="19" y1="19" x2="19" y2="13.5"/></symbol>
-    <symbol id="i-dam" viewBox="0 0 24 24"><path d="M2 12 L7 4 L17 4 L22 12 Z"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M2 12 L2 20 L22 20 L22 12"/><path d="M4 16 C6 15 8 17 10 16 C12 15 14 17 16 16 C18 15 20 17 22 16" /></symbol>
-    <symbol id="i-irrigation" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="7" y1="6" x2="7" y2="11"/><line x1="12" y1="6" x2="12" y2="14"/><line x1="17" y1="6" x2="17" y2="11"/><path d="M5 13 C6 14.5 8 14.5 9 13" /><path d="M10 16 C11 17.5 13 17.5 14 16" /><path d="M15 13 C16 14.5 18 14.5 19 13" /></symbol>
-    <symbol id="i-group" viewBox="0 0 24 24"><circle cx="8.5" cy="8" r="3"/><path d="M2.5 20 C2.5 16 5 13.8 8.5 13.8 C12 13.8 14.5 16 14.5 20"/><circle cx="17" cy="9.5" r="2.4"/><path d="M14.8 20 C14.8 17 16.5 15.2 19 15.2 C21.3 15.2 21.7 17 21.7 19" /></symbol>
-    <symbol id="i-certificate" viewBox="0 0 24 24"><rect x="2.5" y="3.5" width="19" height="13.5" rx="1.2"/><line x1="6" y1="7.5" x2="16" y2="7.5"/><line x1="6" y1="11" x2="13" y2="11"/><circle cx="9" cy="19" r="3"/><path d="M7 21.3 L6.2 24 L9 22.5 L11.8 24 L11 21.3"/></symbol>
-    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="1.5"/><line x1="3" y1="9.5" x2="21" y2="9.5"/><line x1="7.5" y1="3" x2="7.5" y2="6.5"/><line x1="16.5" y1="3" x2="16.5" y2="6.5"/><line x1="7" y1="13" x2="9" y2="13"/><line x1="11" y1="13" x2="13" y2="13"/><line x1="15" y1="13" x2="17" y2="13"/><line x1="7" y1="17" x2="9" y2="17"/><line x1="11" y1="17" x2="13" y2="17"/></symbol>
-    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22 C12 22 19 14.8 19 9.5 C19 5.4 15.9 2 12 2 C8.1 2 5 5.4 5 9.5 C5 14.8 12 22 12 22 Z"/><circle cx="12" cy="9.3" r="2.6"/></symbol>
-    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2.5" y="7.5" width="19" height="13" rx="1.5"/><path d="M8 7.5 V5.5 C8 4.4 8.9 3.5 10 3.5 H14 C15.1 3.5 16 4.4 16 5.5 V7.5"/><line x1="2.5" y1="13" x2="21.5" y2="13"/><rect x="10.3" y="11.5" width="3.4" height="3" rx="0.4"/></symbol>
-    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="1"/><line x1="1.5" y1="19.5" x2="22.5" y2="19.5"/><line x1="9.5" y1="19.5" x2="9.5" y2="17.5"/><line x1="14.5" y1="19.5" x2="14.5" y2="17.5"/></symbol>
-    <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M4 20 L4.8 16.2 L15.5 5.5 C16.3 4.7 17.6 4.7 18.4 5.5 C19.2 6.3 19.2 7.6 18.4 8.4 L7.7 19.1 Z"/><line x1="13.8" y1="7.2" x2="16.7" y2="10.1"/><line x1="4" y1="20" x2="7.7" y2="19.1"/></symbol>
-    <symbol id="i-chart" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="3"/><line x1="4" y1="21" x2="21" y2="21"/><rect x="7" y="13" width="3" height="8"/><rect x="12.5" y="9" width="3" height="12"/><rect x="18" y="5" width="3" height="16"/></symbol>
-    <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.5 L21 7.5 V16.5 L12 21.5 L3 16.5 V7.5 Z"/><path d="M3 7.5 L12 12.5 L21 7.5"/><line x1="12" y1="12.5" x2="12" y2="21.5"/></symbol>
-    <symbol id="i-hardhat" viewBox="0 0 24 24"><path d="M3 17 C3 10.5 7 5.5 12 5.5 C17 5.5 21 10.5 21 17 Z"/><line x1="1.5" y1="17" x2="22.5" y2="17"/><line x1="12" y1="2.5" x2="12" y2="6"/><rect x="9.5" y="17" width="5" height="2.2" rx="0.4"/></symbol>
-    <symbol id="i-document" viewBox="0 0 24 24"><path d="M6 2.5 H15 L19 6.5 V21.5 H6 Z"/><path d="M15 2.5 V6.5 H19"/><line x1="8.5" y1="11" x2="16.5" y2="11"/><line x1="8.5" y1="14.5" x2="16.5" y2="14.5"/><line x1="8.5" y1="18" x2="13.5" y2="18"/></symbol>
-    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><line x1="2.5" y1="12" x2="21.5" y2="12"/><path d="M12 2.5 C15 5.5 16.5 8.5 16.5 12 C16.5 15.5 15 18.5 12 21.5 C9 18.5 7.5 15.5 7.5 12 C7.5 8.5 9 5.5 12 2.5 Z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="6" r="1.6"></circle><path d="M12 7.6 L6 19 M12 7.6 L18 19"></path><path d="M9 14 L15 14"></path></symbol>
+    <symbol id="i-ruler" viewBox="0 0 24 24"><rect x="2.5" y="9" width="19" height="6" rx="0.5" transform="rotate(-25 12 12)"></rect><path d="M7.5 9.3 L8.6 11.6 M10.3 8 L11.4 10.3 M13.1 6.7 L14.2 9 M15.9 5.4 L17 7.7" transform="rotate(-25 12 12)"></path></symbol>
+    <symbol id="i-calculator" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5"></rect><line x1="7.5" y1="6.5" x2="16.5" y2="6.5"></line><line x1="7.5" y1="11" x2="9.5" y2="11"></line><line x1="11" y1="11" x2="13" y2="11"></line><line x1="14.5" y1="11" x2="16.5" y2="11"></line><line x1="7.5" y1="14.5" x2="9.5" y2="14.5"></line><line x1="11" y1="14.5" x2="13" y2="14.5"></line><line x1="14.5" y1="14.5" x2="16.5" y2="14.5"></line><line x1="7.5" y1="18" x2="9.5" y2="18"></line><line x1="11" y1="18" x2="13" y2="18"></line><line x1="14.5" y1="18" x2="16.5" y2="18"></line></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.5 C12 2.5 5.5 11 5.5 15.5 C5.5 19.1 8.4 22 12 22 C15.6 22 18.5 19.1 18.5 15.5 C18.5 11 12 2.5 12 2.5 Z"></path></symbol>
+    <symbol id="i-river" viewBox="0 0 24 24"><path d="M3 5 C8 9 4 12 9 16 C13 19 11 21.5 11 21.5"></path><path d="M9 3.5 C14 7.5 10 11 15 15 C19 18 17 20.5 17 20.5"></path></symbol>
+    <symbol id="i-tsquare" viewBox="0 0 24 24"><path d="M4 4 V20 H20"></path><path d="M4 4 L20 4 M8 4 V8 M12 4 V8 M16 4 V8 M4 16 H8 M4 12 H8"></path></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M4 6.5 L12 13 L20 6.5"></path></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3 C5 3 4 4 4 5 C4 14 10 20 19 20 C20 20 21 19 21 18 L21 15.3 C21 14.7 20.6 14.2 20 14 L16.2 12.9 C15.7 12.7 15.1 12.9 14.8 13.3 L13.4 15 C10.9 13.7 9 11.9 7.7 9.4 L9.4 8 C9.8 7.7 10 7.1 9.8 6.6 L8.7 2.8 C8.5 2.2 8 1.9 7.4 1.9 L6 3 Z"></path></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"></rect><text x="12" y="15.5" font-family="Space Grotesk, sans-serif" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">in</text></symbol>
+    <symbol id="i-emblem" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42"></circle><line x1="14" y1="50" x2="86" y2="50"></line><circle cx="50" cy="24" r="3" fill="currentColor" stroke="none"></circle><path d="M50 27 L36 46 M50 27 L64 46"></path><path d="M22 58 C30 52 36 64 44 58 C48 55 52 61 56 58 C62 53 70 61 78 58"></path></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4 21 C4 16.5 7.5 14 12 14 C16.5 14 20 16.5 20 21"></path></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="19" rx="0.5"></rect><line x1="8" y1="6.5" x2="10" y2="6.5"></line><line x1="13" y1="6.5" x2="15" y2="6.5"></line><line x1="8" y1="10" x2="10" y2="10"></line><line x1="13" y1="10" x2="15" y2="10"></line><line x1="8" y1="13.5" x2="10" y2="13.5"></line><line x1="13" y1="13.5" x2="15" y2="13.5"></line><rect x="10" y="17" width="4" height="5"></rect></symbol>
+    <symbol id="i-bridge" viewBox="0 0 24 24"><path d="M2 16 C2 16 4 9 12 9 C20 9 22 16 22 16"></path><line x1="2" y1="19" x2="22" y2="19"></line><line x1="5" y1="19" x2="5" y2="13.5"></line><line x1="9" y1="19" x2="9" y2="10.2"></line><line x1="15" y1="19" x2="15" y2="10.2"></line><line x1="19" y1="19" x2="19" y2="13.5"></line></symbol>
+    <symbol id="i-dam" viewBox="0 0 24 24"><path d="M2 12 L7 4 L17 4 L22 12 Z"></path><line x1="2" y1="12" x2="22" y2="12"></line><path d="M2 12 L2 20 L22 20 L22 12"></path><path d="M4 16 C6 15 8 17 10 16 C12 15 14 17 16 16 C18 15 20 17 22 16"></path></symbol>
+    <symbol id="i-irrigation" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="7" y1="6" x2="7" y2="11"></line><line x1="12" y1="6" x2="12" y2="14"></line><line x1="17" y1="6" x2="17" y2="11"></line><path d="M5 13 C6 14.5 8 14.5 9 13"></path><path d="M10 16 C11 17.5 13 17.5 14 16"></path><path d="M15 13 C16 14.5 18 14.5 19 13"></path></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><circle cx="8.5" cy="8" r="3"></circle><path d="M2.5 20 C2.5 16 5 13.8 8.5 13.8 C12 13.8 14.5 16 14.5 20"></path><circle cx="17" cy="9.5" r="2.4"></circle><path d="M14.8 20 C14.8 17 16.5 15.2 19 15.2 C21.3 15.2 21.7 17 21.7 19"></path></symbol>
+    <symbol id="i-certificate" viewBox="0 0 24 24"><rect x="2.5" y="3.5" width="19" height="13.5" rx="1.2"></rect><line x1="6" y1="7.5" x2="16" y2="7.5"></line><line x1="6" y1="11" x2="13" y2="11"></line><circle cx="9" cy="19" r="3"></circle><path d="M7 21.3 L6.2 24 L9 22.5 L11.8 24 L11 21.3"></path></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="1.5"></rect><line x1="3" y1="9.5" x2="21" y2="9.5"></line><line x1="7.5" y1="3" x2="7.5" y2="6.5"></line><line x1="16.5" y1="3" x2="16.5" y2="6.5"></line><line x1="7" y1="13" x2="9" y2="13"></line><line x1="11" y1="13" x2="13" y2="13"></line><line x1="15" y1="13" x2="17" y2="13"></line><line x1="7" y1="17" x2="9" y2="17"></line><line x1="11" y1="17" x2="13" y2="17"></line></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22 C12 22 19 14.8 19 9.5 C19 5.4 15.9 2 12 2 C8.1 2 5 5.4 5 9.5 C5 14.8 12 22 12 22 Z"></path><circle cx="12" cy="9.3" r="2.6"></circle></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2.5" y="7.5" width="19" height="13" rx="1.5"></rect><path d="M8 7.5 V5.5 C8 4.4 8.9 3.5 10 3.5 H14 C15.1 3.5 16 4.4 16 5.5 V7.5"></path><line x1="2.5" y1="13" x2="21.5" y2="13"></line><rect x="10.3" y="11.5" width="3.4" height="3" rx="0.4"></rect></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="1"></rect><line x1="1.5" y1="19.5" x2="22.5" y2="19.5"></line><line x1="9.5" y1="19.5" x2="9.5" y2="17.5"></line><line x1="14.5" y1="19.5" x2="14.5" y2="17.5"></line></symbol>
+    <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M4 20 L4.8 16.2 L15.5 5.5 C16.3 4.7 17.6 4.7 18.4 5.5 C19.2 6.3 19.2 7.6 18.4 8.4 L7.7 19.1 Z"></path><line x1="13.8" y1="7.2" x2="16.7" y2="10.1"></line><line x1="4" y1="20" x2="7.7" y2="19.1"></line></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="3"></line><line x1="4" y1="21" x2="21" y2="21"></line><rect x="7" y="13" width="3" height="8"></rect><rect x="12.5" y="9" width="3" height="12"></rect><rect x="18" y="5" width="3" height="16"></rect></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.5 L21 7.5 V16.5 L12 21.5 L3 16.5 V7.5 Z"></path><path d="M3 7.5 L12 12.5 L21 7.5"></path><line x1="12" y1="12.5" x2="12" y2="21.5"></line></symbol>
+    <symbol id="i-hardhat" viewBox="0 0 24 24"><path d="M3 17 C3 10.5 7 5.5 12 5.5 C17 5.5 21 10.5 21 17 Z"></path><line x1="1.5" y1="17" x2="22.5" y2="17"></line><line x1="12" y1="2.5" x2="12" y2="6"></line><rect x="9.5" y="17" width="5" height="2.2" rx="0.4"></rect></symbol>
+    <symbol id="i-document" viewBox="0 0 24 24"><path d="M6 2.5 H15 L19 6.5 V21.5 H6 Z"></path><path d="M15 2.5 V6.5 H19"></path><line x1="8.5" y1="11" x2="16.5" y2="11"></line><line x1="8.5" y1="14.5" x2="16.5" y2="14.5"></line><line x1="8.5" y1="18" x2="13.5" y2="18"></line></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"></circle><line x1="2.5" y1="12" x2="21.5" y2="12"></line><path d="M12 2.5 C15 5.5 16.5 8.5 16.5 12 C16.5 15.5 15 18.5 12 21.5 C9 18.5 7.5 15.5 7.5 12 C7.5 8.5 9 5.5 12 2.5 Z"></path></symbol>
   </defs>
 </svg>
 
 <nav>
   <div class="nav-inner">
-    <div class="nav-brand"><svg class="icon" id="secretTapZone"><use href="#i-emblem"/></svg> <span data-editable contenteditable="false">TEDY KURNIAWAN</span></div>
+    <div class="nav-brand"><svg class="icon" id="secretTapZone"><use href="#i-emblem"></use></svg> <span data-editable="" contenteditable="false">TEDY KURNIAWAN</span></div>
     <button class="nav-toggle" id="navToggle" aria-label="Buka menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="#bab-pengalaman">Pengalaman</a></li>
@@ -746,11 +745,11 @@
 <!-- HERO : BAB 1 — PROFIL -->
 <header class="hero" id="bab-profil">
   <div class="wrap hero-inner">
-    <div class="hero-kicker"><span class="rule"></span> <span data-editable contenteditable="false">Profil</span></div>
+    <div class="hero-kicker"><span class="rule"></span> <span data-editable="" contenteditable="false">Profil</span></div>
     <div class="hero-grid">
       <div class="photo-frame shape-circle" id="photoFrame" data-shape="circle">
         <img id="profilePhoto" alt="Foto Tedy Kurniawan" style="object-position:50% 50%;">
-        <svg class="icon placeholder-icon" id="photoPlaceholder"><use href="#i-user"/></svg>
+        <svg class="icon placeholder-icon" id="photoPlaceholder"><use href="#i-user"></use></svg>
         <div class="photo-overlay" id="photoOverlay">Klik untuk ganti foto</div>
         <div class="photo-reposition" id="photoReposition">
           <span>☩ Geser untuk atur posisi</span>
@@ -768,12 +767,12 @@
         </div>
       </div>
       <div>
-        <h1 data-editable contenteditable="false">Tedy Kurniawan</h1>
-        <p class="hero-about" data-editable contenteditable="false">Bekerja di bidang manajemen proyek konstruksi dan estimasi biaya, dengan ketertarikan pada gambar teknik dan pergerakan air dalam sistem yang kita bangun. Terbiasa menyusun perhitungan dan gambar kerja yang rapi serta dapat dipertanggungjawabkan.</p>
-        <p class="hero-line" data-editable contenteditable="false">Quantity Surveyor / Estimator · Drafter · Hydrology Enthusiast — Teknik Sipil, Institut Teknologi Nasional Yogyakarta (ITNY)</p>
+        <h1 data-editable="" contenteditable="false">Tedy Kurniawan</h1>
+        <p class="hero-about" data-editable="" contenteditable="false">Bekerja di bidang manajemen proyek konstruksi dan estimasi biaya, dengan ketertarikan pada gambar teknik dan pergerakan air dalam sistem yang kita bangun. Terbiasa menyusun perhitungan dan gambar kerja yang rapi serta dapat dipertanggungjawabkan.</p>
+        <p class="hero-line" data-editable="" contenteditable="false">Quantity Surveyor / Estimator · Drafter · Hydrology Enthusiast — Teknik Sipil, Institut Teknologi Nasional Yogyakarta (ITNY)</p>
         <div class="hero-cta">
-          <a href="#bab-pengalaman" class="btn-solid" data-editable contenteditable="false">Lihat Portofolio</a>
-          <a href="#kontak" class="link-arrow" data-editable contenteditable="false">Hubungi Saya →</a>
+          <a href="#bab-pengalaman" class="btn-solid" data-editable="" contenteditable="false">Lihat Portofolio</a>
+          <a href="#kontak" class="link-arrow" data-editable="" contenteditable="false">Hubungi Saya →</a>
         </div>
       </div>
     </div>
@@ -781,118 +780,118 @@
 </header>
 
 <!-- BAB 2 — PENGALAMAN KERJA (berisi sub-bab: QS, Drafter, Hydrology, dan sub-bab tambahan) -->
-<section id="bab-pengalaman" class="dark-section bab-section" data-bab data-bab-deletable>
+<section id="bab-pengalaman" class="dark-section bab-section" data-bab="" data-bab-deletable="" draggable="false" data-drag-role="bab">
   <button class="drag-handle" draggable="true" data-drag-type="bab" title="Tarik untuk ubah urutan Bab">⠿</button>
   <button class="bab-delete-btn" title="Hapus seluruh Bab ini">×</button>
   <div class="wrap">
     <div class="print-cover">
-      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-river"><svg class="icon"><use href="#i-river"/></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable contenteditable="false">Bab 2</span></div>
-      <h2 class="sec-title reveal" data-editable contenteditable="false">Pengalaman Kerja</h2>
-      <p class="sec-lede reveal" data-editable contenteditable="false">Pengalaman kerja saya di berbagai bidang, lengkap dengan tautan bukti dan dokumentasi.</p>
+      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-river"><svg class="icon"><use href="#i-river"></use></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable="" contenteditable="false">Bab 2</span></div>
+      <h2 class="sec-title reveal" data-editable="" contenteditable="false">Pengalaman Kerja</h2>
+      <p class="sec-lede reveal" data-editable="" contenteditable="false">Pengalaman kerja saya di berbagai bidang, lengkap dengan tautan bukti dan dokumentasi.</p>
     </div>
 
     <div style="height:56px;"></div>
 
     <!-- SUB-BAB 2.1: QS -->
-    <div class="role-block reveal" data-subbab>
+    <div class="role-block reveal" data-subbab="" draggable="false" data-drag-role="subbab">
       <div class="role-head"><button class="drag-handle" draggable="true" data-drag-type="subbab" title="Tarik untuk ubah urutan sub-bab">⠿</button>
-        <span class="icon-wrap" data-icon-id="i-calculator"><svg class="icon"><use href="#i-calculator"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <h3 class="role-name"><span class="subbab-number-label"></span> <span data-editable contenteditable="false">Quantity Surveyor / Estimator</span></h3>
-        <span class="role-meta" data-editable contenteditable="false">Estimasi &amp; Dokumentasi Biaya</span>
+        <span class="icon-wrap" data-icon-id="i-calculator"><svg class="icon"><use href="#i-calculator"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <h3 class="role-name"><span class="subbab-number-label">2.1</span> <span data-editable="" contenteditable="false">Quantity Surveyor / Estimator</span></h3>
+        <span class="role-meta" data-editable="" contenteditable="false">Estimasi &amp; Dokumentasi Biaya</span>
         <button class="subbab-delete" title="Hapus sub-bab">×</button>
       </div>
       <div class="project-grid" id="grid-qs">
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-building"><svg class="icon"><use href="#i-building"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Victory Tower (Empire Tower) — Medan / Jakarta</h4>
+          <span class="icon-wrap" data-icon-id="i-building"><svg class="icon"><use href="#i-building"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Victory Tower (Empire Tower) — Medan / Jakarta</h4>
           <div class="card-meta">
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Jan 2023 — Mar 2023</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Medan / Jakarta</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Freelance</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Jan 2023 — Mar 2023</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Medan / Jakarta</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Freelance</span></span>
           </div>
-          <p data-editable contenteditable="false">Menyusun AHS untuk demolisi & penggantian pintu kaca rangka alumunium (GD1) serta jendela kaca tetap (W1) di Lobi Utama Lantai Dasar.</p>
+          <p data-editable="" contenteditable="false">Menyusun AHS untuk demolisi &amp; penggantian pintu kaca rangka alumunium (GD1) serta jendela kaca tetap (W1) di Lobi Utama Lantai Dasar.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Bukti Proyek ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Bukti Proyek ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-irrigation"><svg class="icon"><use href="#i-irrigation"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Renovasi Masjid — Area Bantaran Sungai, Medan</h4>
+          <span class="icon-wrap" data-icon-id="i-irrigation"><svg class="icon"><use href="#i-irrigation"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Renovasi Masjid — Area Bantaran Sungai, Medan</h4>
           <div class="card-meta">
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Apr 2023 — Jun 2023</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Medan</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Freelance</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Apr 2023 — Jun 2023</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Medan</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Freelance</span></span>
           </div>
-          <p data-editable contenteditable="false">AHS untuk demolisi & pemasangan ulang railing pipa besi, stiker oracal fasad kaca/alumunium, dan fabrikasi kabinet wastafel.</p>
+          <p data-editable="" contenteditable="false">AHS untuk demolisi &amp; pemasangan ulang railing pipa besi, stiker oracal fasad kaca/alumunium, dan fabrikasi kabinet wastafel.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Bukti Proyek ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Bukti Proyek ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
       </div>
       <button class="add-card-btn" data-add="grid-qs" data-icon="i-ruler">+ Tambah Proyek</button>
     </div>
 
     <!-- SUB-BAB 2.2: Drafter -->
-    <div class="role-block reveal" data-subbab>
+    <div class="role-block reveal" data-subbab="" draggable="false" data-drag-role="subbab">
       <div class="role-head"><button class="drag-handle" draggable="true" data-drag-type="subbab" title="Tarik untuk ubah urutan sub-bab">⠿</button>
-        <span class="icon-wrap" data-icon-id="i-compass"><svg class="icon"><use href="#i-compass"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <span class="icon-wrap" data-icon-id="i-bridge"><svg class="icon"><use href="#i-bridge"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <h3 class="role-name"><span class="subbab-number-label"></span> <span data-editable contenteditable="false">Drafter</span></h3>
-        <span class="role-meta" data-editable contenteditable="false">Gambar Kerja</span>
+        <span class="icon-wrap" data-icon-id="i-compass"><svg class="icon"><use href="#i-compass"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <span class="icon-wrap" data-icon-id="i-bridge"><svg class="icon"><use href="#i-bridge"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <h3 class="role-name"><span class="subbab-number-label">2.2</span> <span data-editable="" contenteditable="false">Drafter</span></h3>
+        <span class="role-meta" data-editable="" contenteditable="false">Gambar Kerja</span>
         <button class="subbab-delete" title="Hapus sub-bab">×</button>
       </div>
       <div class="project-grid" id="grid-drafter">
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-tsquare"><svg class="icon"><use href="#i-tsquare"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Nama Proyek / Lokasi</h4>
+          <span class="icon-wrap" data-icon-id="i-tsquare"><svg class="icon"><use href="#i-tsquare"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Nama Proyek / Lokasi</h4>
           <div class="card-meta">
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Lokasi Kerja</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Jenis Pekerjaan</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Lokasi Kerja</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Jenis Pekerjaan</span></span>
           </div>
-          <p data-editable contenteditable="false">Jenis gambar yang dikerjakan, software yang dipakai, dan lingkup pekerjaan.</p>
+          <p data-editable="" contenteditable="false">Jenis gambar yang dikerjakan, software yang dipakai, dan lingkup pekerjaan.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Bukti Proyek ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Bukti Proyek ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
       </div>
       <button class="add-card-btn" data-add="grid-drafter" data-icon="i-tsquare">+ Tambah Proyek</button>
     </div>
 
     <!-- SUB-BAB 2.3: Hydrology -->
-    <div class="role-block reveal" data-subbab>
+    <div class="role-block reveal" data-subbab="" draggable="false" data-drag-role="subbab">
       <div class="role-head"><button class="drag-handle" draggable="true" data-drag-type="subbab" title="Tarik untuk ubah urutan sub-bab">⠿</button>
-        <span class="icon-wrap" data-icon-id="i-drop"><svg class="icon"><use href="#i-drop"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <span class="icon-wrap" data-icon-id="i-dam"><svg class="icon"><use href="#i-dam"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <h3 class="role-name"><span class="subbab-number-label"></span> <span data-editable contenteditable="false">Hydrology Enthusiast</span></h3>
-        <span class="role-meta" data-editable contenteditable="false">Catatan &amp; Riset Mandiri</span>
+        <span class="icon-wrap" data-icon-id="i-drop"><svg class="icon"><use href="#i-drop"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <span class="icon-wrap" data-icon-id="i-dam"><svg class="icon"><use href="#i-dam"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <h3 class="role-name"><span class="subbab-number-label">2.3</span> <span data-editable="" contenteditable="false">Hydrology Enthusiast</span></h3>
+        <span class="role-meta" data-editable="" contenteditable="false">Catatan &amp; Riset Mandiri</span>
         <button class="subbab-delete" title="Hapus sub-bab">×</button>
       </div>
       <div class="project-grid" id="grid-hydro">
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-river"><svg class="icon"><use href="#i-river"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Studi Kasus / Lokasi</h4>
+          <span class="icon-wrap" data-icon-id="i-river"><svg class="icon"><use href="#i-river"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Studi Kasus / Lokasi</h4>
           <div class="card-meta">
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Lokasi Kerja</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Riset Mandiri</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Lokasi Kerja</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Riset Mandiri</span></span>
           </div>
-          <p data-editable contenteditable="false">Riset mandiri atau observasi lapangan terkait drainase dan daerah aliran sungai.</p>
+          <p data-editable="" contenteditable="false">Riset mandiri atau observasi lapangan terkait drainase dan daerah aliran sungai.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Bukti Proyek ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Bukti Proyek ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
       </div>
       <button class="add-card-btn" data-add="grid-hydro" data-icon="i-river">+ Tambah Proyek</button>
@@ -903,39 +902,39 @@
 </section>
 
 <!-- BAB 3 — PENGALAMAN ORGANISASI / KEPANITIAAN -->
-<section id="bab-organisasi" class="dark-section bab-section" data-bab data-bab-deletable>
+<section id="bab-organisasi" class="dark-section bab-section" data-bab="" data-bab-deletable="" draggable="false" data-drag-role="bab">
   <button class="drag-handle" draggable="true" data-drag-type="bab" title="Tarik untuk ubah urutan Bab">⠿</button>
   <button class="bab-delete-btn" title="Hapus seluruh Bab ini">×</button>
   <div class="wrap">
     <div class="print-cover">
-      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"/></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable contenteditable="false">Bab 3</span></div>
-      <h2 class="sec-title reveal" data-editable contenteditable="false">Pengalaman Organisasi / Kepanitiaan</h2>
-      <p class="sec-lede reveal" data-editable contenteditable="false">Kegiatan organisasi dan kepanitiaan yang pernah saya ikuti, lengkap dengan tautan bukti dan dokumentasi.</p>
+      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"></use></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable="" contenteditable="false">Bab 3</span></div>
+      <h2 class="sec-title reveal" data-editable="" contenteditable="false">Pengalaman Organisasi / Kepanitiaan</h2>
+      <p class="sec-lede reveal" data-editable="" contenteditable="false">Kegiatan organisasi dan kepanitiaan yang pernah saya ikuti, lengkap dengan tautan bukti dan dokumentasi.</p>
     </div>
     <div style="height:56px;"></div>
 
-    <div class="role-block reveal" data-subbab>
+    <div class="role-block reveal" data-subbab="" draggable="false" data-drag-role="subbab">
       <div class="role-head"><button class="drag-handle" draggable="true" data-drag-type="subbab" title="Tarik untuk ubah urutan sub-bab">⠿</button>
-        <span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <h3 class="role-name"><span class="subbab-number-label"></span> <span data-editable contenteditable="false">Organisasi &amp; Kepanitiaan</span></h3>
-        <span class="role-meta" data-editable contenteditable="false">Kegiatan &amp; Keorganisasian</span>
+        <span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <h3 class="role-name"><span class="subbab-number-label">3.1</span> <span data-editable="" contenteditable="false">Organisasi &amp; Kepanitiaan</span></h3>
+        <span class="role-meta" data-editable="" contenteditable="false">Kegiatan &amp; Keorganisasian</span>
       </div>
       <div class="project-grid" id="grid-organisasi">
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Nama Organisasi / Kepanitiaan</h4>
+          <span class="icon-wrap" data-icon-id="i-group"><svg class="icon"><use href="#i-group"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Nama Organisasi / Kepanitiaan</h4>
           <div class="card-meta">
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Posisi / Jabatan</span></span>
-            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"/></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable contenteditable="false">Lokasi / Kota</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-calendar"><svg class="icon"><use href="#i-calendar"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Bulan Tahun — Bulan Tahun</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-briefcase"><svg class="icon"><use href="#i-briefcase"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Posisi / Jabatan</span></span>
+            <span class="meta-item"><span class="icon-wrap" data-icon-id="i-pin"><svg class="icon"><use href="#i-pin"></use></svg><img class="custom-icon" alt="ikon custom"></span><span data-editable="" contenteditable="false">Lokasi / Kota</span></span>
           </div>
-          <p data-editable contenteditable="false">Apa saja yang dikerjakan selama terlibat di organisasi atau kepanitiaan ini.</p>
+          <p data-editable="" contenteditable="false">Apa saja yang dikerjakan selama terlibat di organisasi atau kepanitiaan ini.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Bukti Kegiatan ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Bukti Kegiatan ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
       </div>
       <button class="add-card-btn" data-add="grid-organisasi" data-icon="i-group">+ Tambah Organisasi/Kepanitiaan</button>
@@ -944,34 +943,34 @@
 </section>
 
 <!-- BAB 4 — PELATIHAN & SERTIFIKASI -->
-<section id="bab-sertifikasi" class="dark-section bab-section" data-bab data-bab-deletable>
+<section id="bab-sertifikasi" class="dark-section bab-section" data-bab="" data-bab-deletable="" draggable="false" data-drag-role="bab">
   <button class="drag-handle" draggable="true" data-drag-type="bab" title="Tarik untuk ubah urutan Bab">⠿</button>
   <button class="bab-delete-btn" title="Hapus seluruh Bab ini">×</button>
   <div class="wrap">
     <div class="print-cover">
-      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"/></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable contenteditable="false">Bab 4</span></div>
-      <h2 class="sec-title reveal" data-editable contenteditable="false">Pelatihan &amp; Sertifikasi</h2>
-      <p class="sec-lede reveal" data-editable contenteditable="false">Kursus, pelatihan, dan sertifikat yang pernah saya ikuti, lengkap dengan tautan bukti dan dokumentasi.</p>
+      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"></use></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable="" contenteditable="false">Bab 4</span></div>
+      <h2 class="sec-title reveal" data-editable="" contenteditable="false">Pelatihan &amp; Sertifikasi</h2>
+      <p class="sec-lede reveal" data-editable="" contenteditable="false">Kursus, pelatihan, dan sertifikat yang pernah saya ikuti, lengkap dengan tautan bukti dan dokumentasi.</p>
     </div>
     <div style="height:56px;"></div>
 
-    <div class="role-block reveal" data-subbab>
+    <div class="role-block reveal" data-subbab="" draggable="false" data-drag-role="subbab">
       <div class="role-head"><button class="drag-handle" draggable="true" data-drag-type="subbab" title="Tarik untuk ubah urutan sub-bab">⠿</button>
-        <span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <h3 class="role-name"><span class="subbab-number-label"></span> <span data-editable contenteditable="false">Pelatihan &amp; Sertifikasi</span></h3>
-        <span class="role-meta" data-editable contenteditable="false">Kursus, Pelatihan &amp; Sertifikat</span>
+        <span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <h3 class="role-name"><span class="subbab-number-label">4.1</span> <span data-editable="" contenteditable="false">Pelatihan &amp; Sertifikasi</span></h3>
+        <span class="role-meta" data-editable="" contenteditable="false">Kursus, Pelatihan &amp; Sertifikat</span>
       </div>
       <div class="project-grid" id="grid-sertifikasi">
-        <div class="project-card">
+        <div class="project-card" draggable="false" data-drag-role="card">
           <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-          <span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"/></svg><img class="custom-icon" alt="ikon custom"></span>
-          <h4 data-editable contenteditable="false">Nama Pelatihan / Sertifikasi</h4>
-          <p data-editable contenteditable="false">Penyelenggara, tahun, dan uraian singkat materi atau kompetensi yang diperoleh dari pelatihan/sertifikasi ini.</p>
+          <span class="icon-wrap" data-icon-id="i-certificate"><svg class="icon"><use href="#i-certificate"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+          <h4 data-editable="" contenteditable="false">Nama Pelatihan / Sertifikasi</h4>
+          <p data-editable="" contenteditable="false">Penyelenggara, tahun, dan uraian singkat materi atau kompetensi yang diperoleh dari pelatihan/sertifikasi ini.</p>
           <div class="card-links">
-            <a href="#" class="proof-link" data-editable contenteditable="false">Link Sertifikat ↗</a>
-            <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+            <a href="#" class="proof-link no-link" data-editable="" contenteditable="false" data-label-backup="Link Sertifikat ↗">Tanpa bukti/link</a>
+            <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
           </div>
-          <div class="doc-gallery" data-doc-gallery><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add title="Tambah dokumentasi">+</button></div>
+          <div class="doc-gallery" data-doc-gallery=""><span class="doc-empty-note">Belum ada dokumentasi</span><button class="doc-add" data-doc-add="" title="Tambah dokumentasi">+</button></div>
         </div>
       </div>
       <button class="add-card-btn" data-add="grid-sertifikasi" data-icon="i-certificate">+ Tambah Pelatihan/Sertifikasi</button>
@@ -980,29 +979,29 @@
 </section>
 
 <!-- BAB 5 — KEAHLIAN / SOFTWARE -->
-<section id="bab-keahlian" class="dark-section bab-section" data-bab data-bab-deletable>
+<section id="bab-keahlian" class="dark-section bab-section" data-bab="" data-bab-deletable="" draggable="false" data-drag-role="bab">
   <button class="drag-handle" draggable="true" data-drag-type="bab" title="Tarik untuk ubah urutan Bab">⠿</button>
   <button class="bab-delete-btn" title="Hapus seluruh Bab ini">×</button>
   <div class="wrap">
     <div class="print-cover">
-      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-ruler"><svg class="icon"><use href="#i-ruler"/></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable contenteditable="false">Bab 5</span></div>
-      <h2 class="sec-title reveal" data-editable contenteditable="false">Software &amp; Tools</h2>
-      <p class="sec-lede reveal" data-editable contenteditable="false">Perangkat lunak yang saya kuasai untuk mendukung pekerjaan estimasi biaya, gambar teknik, dan analisis hidrologi.</p>
+      <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-ruler"><svg class="icon"><use href="#i-ruler"></use></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable="" contenteditable="false">Bab 5</span></div>
+      <h2 class="sec-title reveal" data-editable="" contenteditable="false">Software &amp; Tools</h2>
+      <p class="sec-lede reveal" data-editable="" contenteditable="false">Perangkat lunak yang saya kuasai untuk mendukung pekerjaan estimasi biaya, gambar teknik, dan analisis hidrologi.</p>
     </div>
 
     <div style="height:48px;"></div>
 
     <div class="skill-grid" id="skillGrid">
-      <div class="skill-card">
+      <div class="skill-card" draggable="false" data-drag-role="card">
         <button class="drag-handle" draggable="true" data-drag-type="card" title="Tarik untuk ubah urutan kartu">⠿</button><button class="card-delete" title="Hapus">×</button>
-        <div class="skill-logo" data-skill-logo data-icon-id="i-calculator" title="Klik untuk ganti ikon/logo">
-          <svg class="icon placeholder-icon"><use href="#i-calculator"/></svg>
+        <div class="skill-logo" data-skill-logo="" data-icon-id="i-calculator" title="Klik untuk ganti ikon/logo">
+          <svg class="icon placeholder-icon"><use href="#i-calculator"></use></svg>
           <img alt="Logo software" class="">
         </div>
-        <h4 data-editable contenteditable="false">Microsoft Excel</h4>
-        <p class="skill-desc" data-editable contenteditable="false">Estimasi biaya (AHS/BOQ), rekap kuantitas, dan laporan progres proyek.</p>
-        <div class="skill-level" data-level="4" data-editable-level>
-          <span class="lv-dot"></span><span class="lv-dot"></span><span class="lv-dot"></span><span class="lv-dot"></span><span class="lv-dot"></span>
+        <h4 data-editable="" contenteditable="false">Microsoft Excel</h4>
+        <p class="skill-desc" data-editable="" contenteditable="false">Estimasi biaya (AHS/BOQ), rekap kuantitas, dan laporan progres proyek.</p>
+        <div class="skill-level" data-level="4" data-editable-level="">
+          <span class="lv-dot lv-on"></span><span class="lv-dot lv-on"></span><span class="lv-dot lv-on"></span><span class="lv-dot lv-on"></span><span class="lv-dot"></span>
         </div>
         <span class="skill-level-label">Mahir</span>
       </div>
@@ -1019,26 +1018,26 @@
 </section>
 
 <!-- KONTAK -->
-<section id="kontak" class="bab-section" data-bab>
+<section id="kontak" class="bab-section" data-bab="">
   <div class="wrap contact-band">
-    <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-drop"><svg class="icon"><use href="#i-drop"/></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable contenteditable="false">Bab 6</span></div>
-    <h2 class="sec-title reveal" data-editable contenteditable="false">Mari Berdiskusi</h2>
-    <p class="sec-lede reveal" data-editable contenteditable="false" style="margin:0 auto;">Terbuka untuk proyek estimasi biaya, drafting, maupun kolaborasi seputar hidrologi.</p>
+    <div class="eyebrow reveal bab-eyebrow"><span class="icon-wrap" data-icon-id="i-drop"><svg class="icon"><use href="#i-drop"></use></svg><img class="custom-icon" alt="ikon custom"></span> <span class="bab-number-label" data-editable="" contenteditable="false">Bab 6</span></div>
+    <h2 class="sec-title reveal" data-editable="" contenteditable="false">Mari Berdiskusi</h2>
+    <p class="sec-lede reveal" data-editable="" contenteditable="false" style="margin:0 auto;">Terbuka untuk proyek estimasi biaya, drafting, maupun kolaborasi seputar hidrologi.</p>
     <div class="contact-links reveal">
       <a class="contact-link" href="https://wa.me/6285236704830" target="_blank" rel="noopener">
-        <span class="icon-wrap" data-icon-id="i-phone"><svg class="icon"><use href="#i-phone"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <span class="cl-label" data-editable contenteditable="false">WHATSAPP</span><span class="cl-val" data-editable contenteditable="false">0852-3670-4830</span>
-        <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+        <span class="icon-wrap" data-icon-id="i-phone"><svg class="icon"><use href="#i-phone"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <span class="cl-label" data-editable="" contenteditable="false">WHATSAPP</span><span class="cl-val" data-editable="" contenteditable="false">0852-3670-4830</span>
+        <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
       </a>
       <a class="contact-link" href="mailto:tedydyk31@gmail.com">
-        <span class="icon-wrap" data-icon-id="i-mail"><svg class="icon"><use href="#i-mail"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <span class="cl-label" data-editable contenteditable="false">EMAIL</span><span class="cl-val" data-editable contenteditable="false">tedydyk31@gmail.com</span>
-        <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+        <span class="icon-wrap" data-icon-id="i-mail"><svg class="icon"><use href="#i-mail"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <span class="cl-label" data-editable="" contenteditable="false">EMAIL</span><span class="cl-val" data-editable="" contenteditable="false">tedydyk31@gmail.com</span>
+        <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
       </a>
       <a class="contact-link" href="https://www.linkedin.com/in/tedykurniawan31" target="_blank" rel="noopener">
-        <span class="icon-wrap" data-icon-id="i-link"><svg class="icon"><use href="#i-link"/></svg><img class="custom-icon" alt="ikon custom"></span>
-        <span class="cl-label" data-editable contenteditable="false">LINKEDIN</span><span class="cl-val" data-editable contenteditable="false">in/tedykurniawan31</span>
-        <button class="edit-url-btn" data-link title="Ubah tautan">✎</button>
+        <span class="icon-wrap" data-icon-id="i-link"><svg class="icon"><use href="#i-link"></use></svg><img class="custom-icon" alt="ikon custom"></span>
+        <span class="cl-label" data-editable="" contenteditable="false">LINKEDIN</span><span class="cl-val" data-editable="" contenteditable="false">in/tedykurniawan31</span>
+        <button class="edit-url-btn" data-link="" title="Ubah tautan">✎</button>
       </a>
     </div>
   </div>
@@ -1046,26 +1045,26 @@
 
 <footer>
   <div class="wrap footer-inner">
-    <span style="display:flex;align-items:center;gap:10px;"><span class="icon-wrap" data-icon-id="i-emblem"><svg class="icon"><use href="#i-emblem"/></svg><img class="custom-icon" alt="ikon custom"></span> © <span id="footYear"></span> <span data-editable contenteditable="false">Tedy Kurniawan</span></span>
-    <span data-editable contenteditable="false">Medan, Indonesia</span>
+    <span style="display:flex;align-items:center;gap:10px;"><span class="icon-wrap" data-icon-id="i-emblem"><svg class="icon"><use href="#i-emblem"></use></svg><img class="custom-icon" alt="ikon custom"></span> © <span id="footYear">2026</span> <span data-editable="" contenteditable="false">Tedy Kurniawan</span></span>
+    <span data-editable="" contenteditable="false">Medan, Indonesia</span>
   </div>
 </footer>
 </main>
 
 <!-- UNDO/REDO — selalu terlihat selama mode edit aktif, di pojok kiri bawah -->
 <div id="undoRedoBar">
-  <button id="btnUndo" title="Urungkan (Undo)" disabled>↶ Undo</button>
-  <button id="btnRedo" title="Ulangi (Redo)" disabled>↷ Redo</button>
+  <button id="btnUndo" title="Urungkan (Undo)" disabled="">↶ Undo</button>
+  <button id="btnRedo" title="Ulangi (Redo)" disabled="">↷ Redo</button>
 </div>
 
 <!-- EDIT TOOLBAR — tidak ada tombol terlihat. Ketik kata rahasia di mana saja (di luar kotak teks) untuk memunculkan login. -->
-<div id="editToolbar">
+<div id="editToolbar" class="">
   <div class="toolbar-header">
     <h5>Mode Edit</h5>
     <button id="toolbarMinimize" title="Kecilkan/besarkan panel">−</button>
   </div>
   <div id="toolbarBody">
-  <div class="status" id="editStatus">Aktif — semua teks bisa diklik & diketik ulang.</div>
+  <div class="status" id="editStatus">⏳ Mengirim perubahan ke GitHub…</div>
   <h5>Font</h5>
   <select id="fontSelect">
     <option value="architect">Space Grotesk + Inter</option>
@@ -1110,16 +1109,16 @@
 
   <h5>Petunjuk Singkat</h5>
   <div class="status">• Klik teks untuk edit langsung.<br>• Blok teks → toolbar Bold/Italic/Underline/List/Align/Font.<br>• Ikon ✎ untuk ubah link.<br>• Tombol + di galeri → tambah dokumentasi (klik foto untuk lihat besar).<br>• Tombol bulat kanan-bawah → kecilkan/besarkan panel ini.</div>
-  <h5>Publish ke Netlify</h5>
-
-  <button class="save-btn" id="btnSave">🚀 Simpan &amp; Publish ke Netlify</button>
-  <button id="btnSaveLocal" style="margin-top:4px;">💾 Unduh File Saja (backup)</button>
+  <h5>Publish Otomatis</h5>
+  <button id="btnGhSetup" style="margin-bottom:4px;font-size:0.75rem;background:rgba(255,255,255,0.04);">⚙️ Setup GitHub (sekali aja)</button>
+  <button class="save-btn" id="btnSave" disabled="">⏳ Mengirim…</button>
+  <button id="btnSaveLocal" style="margin-top:4px;">💾 Unduh File (backup)</button>
   <button id="btnExportPdf">📄 Unduh PDF (A4 Landscape)</button>
   <button id="btnLock">Keluar Mode Edit</button>
   </div>
 </div>
 
-<div id="pwModal">
+<div id="pwModal" class="">
   <div class="pw-box">
     <h3>Masuk Mode Edit</h3>
     <p class="pw-sub">Ketik kata sandi untuk mengaktifkan mode edit.</p>
@@ -1180,6 +1179,37 @@
   <img id="lightboxImg" src="" alt="Dokumentasi proyek (tampilan penuh)">
 </div>
 
+<!-- Modal Setup GitHub -->
+<div id="ghSetupModal" style="position: fixed; inset: 0px; background: rgba(10, 20, 28, 0.7); z-index: 3100; display: none; align-items: center; justify-content: center; padding: 20px;">
+  <div style="background:#fff;color:#102530;padding:28px;border-radius:10px;max-width:400px;width:100%;font-family:var(--sans);">
+    <h3 style="font-family:var(--display);font-size:1.05rem;margin-bottom:6px;">⚙️ Setup Publish Otomatis</h3>
+    <p style="font-size:0.78rem;color:#4D6470;margin-bottom:18px;">Isi sekali, tersimpan di browser ini. Kalau token habis masa berlaku, isi ulang di sini.</p>
+
+    <label style="font-size:0.76rem;color:#4D6470;display:block;margin-bottom:4px;">GitHub Personal Access Token</label>
+    <input id="ghTokenInput" type="password" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" style="width:100%;box-sizing:border-box;padding:9px 12px;border-radius:6px;border:1.5px solid #ddd;font-size:0.87rem;margin-bottom:5px;outline:none;">
+    <p style="font-size:0.72rem;color:#9FC2CB;margin-bottom:14px;">
+      Buat di: github.com → Settings → Developer settings → Personal access tokens → Classic → centang <b>repo</b>
+    </p>
+
+    <label style="font-size:0.76rem;color:#4D6470;display:block;margin-bottom:4px;">Username GitHub</label>
+    <input id="ghOwnerInput" type="text" placeholder="tedydyk31" style="width:100%;box-sizing:border-box;padding:9px 12px;border-radius:6px;border:1.5px solid #ddd;font-size:0.87rem;margin-bottom:12px;outline:none;">
+
+    <label style="font-size:0.76rem;color:#4D6470;display:block;margin-bottom:4px;">Nama Repository</label>
+    <input id="ghRepoInput" type="text" placeholder="portofolio" style="width:100%;box-sizing:border-box;padding:9px 12px;border-radius:6px;border:1.5px solid #ddd;font-size:0.87rem;margin-bottom:12px;outline:none;">
+
+    <label style="font-size:0.76rem;color:#4D6470;display:block;margin-bottom:4px;">Nama File di Repo</label>
+    <input id="ghPathInput" type="text" placeholder="index.html" style="width:100%;box-sizing:border-box;padding:9px 12px;border-radius:6px;border:1.5px solid #ddd;font-size:0.87rem;margin-bottom:14px;outline:none;">
+
+    <div id="ghSetupStatus" style="font-size: 0.78rem; min-height: 18px; margin-bottom: 12px; font-weight: 500; color: rgb(26, 122, 74);">✅ Tersimpan!</div>
+
+    <div style="display:flex;gap:8px;">
+      <button id="ghSetupCancel" style="flex:1;padding:10px;border-radius:6px;border:none;font-size:0.83rem;cursor:pointer;background:rgba(16,37,48,0.08);color:#102530;">Batal</button>
+      <button id="ghSetupTest" style="flex:1;padding:10px;border-radius:6px;border:none;font-size:0.83rem;cursor:pointer;background:#2E8B9E;color:#fff;">🔌 Test</button>
+      <button id="ghSetupSave" style="flex:1;padding:10px;border-radius:6px;border:none;font-size:0.83rem;cursor:pointer;background:#C99A55;color:#102530;font-weight:700;">Simpan</button>
+    </div>
+  </div>
+</div>
+
 <script>
   /* ====================================================================
      SISTEM LOGIN: Netlify Identity (email + password akun Netlify kamu
@@ -1218,7 +1248,7 @@
   function applyPattern(key){
     root.style.setProperty('--tex', PATTERNS[key] || PATTERNS.mix);
   }
-  document.getElementById('patternSelect').addEventListener('change', e => {
+  document.getElementById('patternSelect')?.addEventListener('change', e => {
     if (e.target.value === 'custom'){
       customBgPanel.style.display = 'block';
       if (root.style.getPropertyValue('--custom-bg-img') && root.style.getPropertyValue('--custom-bg-img') !== 'none'){
@@ -1296,10 +1326,10 @@
     root.style.setProperty('--sans', f.s);
   }
 
-  document.getElementById('themeSelect').addEventListener('change', e => applyTheme(e.target.value));
-  document.getElementById('fontSelect').addEventListener('change', e => applyFont(e.target.value));
-  document.getElementById('accentPicker').addEventListener('input', e => root.style.setProperty('--accent-2', e.target.value));
-  document.getElementById('warmPicker').addEventListener('input', e => root.style.setProperty('--warm', e.target.value));
+  document.getElementById('themeSelect')?.addEventListener('change', e => applyTheme(e.target.value));
+  document.getElementById('fontSelect')?.addEventListener('change', e => applyFont(e.target.value));
+  document.getElementById('accentPicker')?.addEventListener('input', e => root.style.setProperty('--accent-2', e.target.value));
+  document.getElementById('warmPicker')?.addEventListener('input', e => root.style.setProperty('--warm', e.target.value));
 
   /* ================================================================
      LOGIN: Netlify Identity. Siapa yang boleh login diatur di dashboard
@@ -1357,8 +1387,8 @@
     pwModal.classList.add('open');
     setTimeout(() => pwInput.focus(), 80);
   }
-  document.getElementById('pwCancel').addEventListener('click', () => pwModal.classList.remove('open'));
-  document.getElementById('pwConfirm').addEventListener('click', checkPassword);
+  document.getElementById('pwCancel')?.addEventListener('click', () => pwModal.classList.remove('open'));
+  document.getElementById('pwConfirm')?.addEventListener('click', checkPassword);
   pwInput.addEventListener('keydown', e => { if (e.key === 'Enter') checkPassword(); });
 
   async function checkPassword(){
@@ -1385,7 +1415,7 @@
     document.body.classList.remove('edit-mode');
     document.querySelectorAll('[data-editable]').forEach(el => el.setAttribute('contenteditable','false'));
   }
-  document.getElementById('btnLock').addEventListener('click', () => disableEditMode());
+  document.getElementById('btnLock')?.addEventListener('click', () => disableEditMode());
 
   // ============================================================
   // UNDO / REDO — menyimpan snapshot HTML dari #pageContent setiap
@@ -1716,7 +1746,7 @@
     };
     reader.readAsDataURL(file);
   });
-  document.getElementById('photoOverlay').addEventListener('click', () => {
+  document.getElementById('photoOverlay')?.addEventListener('click', () => {
     pendingUploadTarget = { type:'photo' };
     fileInput.click();
   });
@@ -1969,7 +1999,7 @@
     btn.addEventListener('click', () => btn.closest('.skill-card').remove());
   });
 
-  document.getElementById('btnAddSkill').addEventListener('click', () => {
+  document.getElementById('btnAddSkill')?.addEventListener('click', () => {
     const grid = document.getElementById('skillGrid');
     const card = document.createElement('div');
     card.className = 'skill-card';
@@ -2063,8 +2093,8 @@
       textToolbar.querySelectorAll('button[data-align]').forEach(b => b.classList.toggle('active', b === btn));
     });
   });
-  document.getElementById('toolbarFont').addEventListener('mousedown', (e) => e.stopPropagation());
-  document.getElementById('toolbarFont').addEventListener('change', (e) => {
+  document.getElementById('toolbarFont')?.addEventListener('mousedown', (e) => e.stopPropagation());
+  document.getElementById('toolbarFont')?.addEventListener('change', (e) => {
     if (e.target.value){ document.execCommand('fontName', false, e.target.value); }
     e.target.value = '';
   });
@@ -2084,11 +2114,81 @@
   document.querySelectorAll('.card-delete').forEach(btn => btn.addEventListener('click', () => btn.closest('.project-card').remove()));
   document.querySelectorAll('[data-add]').forEach(attachAddCardBtn);
 
-  // ---------- Netlify credentials (hardcoded) ----------
-  const NF_SITE_ID = '43cc0302-7d9e-4390-bea8-bcaab80a9be6';
-  const NF_TOKEN   = 'nfp_SeVcxFCifScArjuMPH64gAYBHvAbJkuhc210';
+  // ====================================================================
+  // PUBLISH via GitHub API — lebih andal dari browser, tidak kena CORS.
+  // Cara kerja: website push file ke GitHub repo kamu → Vercel/Netlify
+  //             deteksi perubahan → auto-deploy dalam ~30 detik.
+  //
+  // Kredensial disimpan di localStorage browser, bukan di file HTML.
+  // Isi sekali via tombol Setup, selesai.
+  // ====================================================================
 
-  // ---------- Helper: build clean HTML dari current DOM ----------
+  function getGhCreds(){
+    return {
+      token : localStorage.getItem('gh_token')  || '',
+      owner : localStorage.getItem('gh_owner')  || 'tedydyk31',
+      repo  : localStorage.getItem('gh_repo')   || 'portofolio',
+      path  : localStorage.getItem('gh_path')   || 'index.html'
+    };
+  }
+
+  // ---------- Setup modal ----------
+  const ghSetupModal = document.getElementById('ghSetupModal');
+  function openGhSetup(){
+    const c = getGhCreds();
+    document.getElementById('ghTokenInput').value = c.token;
+    document.getElementById('ghOwnerInput').value = c.owner;
+    document.getElementById('ghRepoInput').value  = c.repo;
+    document.getElementById('ghPathInput').value  = c.path;
+    document.getElementById('ghSetupStatus').textContent = '';
+    ghSetupModal.style.display = 'flex';
+  }
+  document.getElementById('btnGhSetup')?.addEventListener('click', openGhSetup);
+  document.getElementById('ghSetupCancel')?.addEventListener('click', () => ghSetupModal.style.display = 'none');
+
+  document.getElementById('ghSetupTest')?.addEventListener('click', async () => {
+    const { token, owner, repo, path } = {
+      token : document.getElementById('ghTokenInput').value.trim(),
+      owner : document.getElementById('ghOwnerInput').value.trim(),
+      repo  : document.getElementById('ghRepoInput').value.trim(),
+      path  : document.getElementById('ghPathInput').value.trim()
+    };
+    const st = document.getElementById('ghSetupStatus');
+    if (!token || !owner || !repo){ st.textContent = '⚠️ Isi semua kolom dulu.'; return; }
+    st.style.color = '#4D6470'; st.textContent = '⏳ Memeriksa koneksi ke GitHub…';
+    try {
+      const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+        headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' }
+      });
+      if (r.ok){
+        st.style.color = '#1a7a4a';
+        st.textContent = `✅ Terhubung! File ditemukan di ${owner}/${repo}/${path}`;
+      } else if (r.status === 401){
+        st.style.color = '#8b1a1a'; st.textContent = '❌ Token salah atau sudah kadaluarsa.';
+      } else if (r.status === 404){
+        st.style.color = '#8b1a1a'; st.textContent = `❌ Repo atau file tidak ditemukan. Cek nama repo/path.`;
+      } else {
+        st.style.color = '#8b1a1a'; st.textContent = `❌ Error ${r.status}`;
+      }
+    } catch(e){ st.style.color = '#8b1a1a'; st.textContent = `❌ ${e.message}`; }
+  });
+
+  document.getElementById('ghSetupSave')?.addEventListener('click', () => {
+    const token = document.getElementById('ghTokenInput').value.trim();
+    const owner = document.getElementById('ghOwnerInput').value.trim();
+    const repo  = document.getElementById('ghRepoInput').value.trim();
+    const path  = document.getElementById('ghPathInput').value.trim();
+    const st    = document.getElementById('ghSetupStatus');
+    if (!token || !owner || !repo || !path){ st.textContent = '⚠️ Isi semua kolom.'; return; }
+    localStorage.setItem('gh_token', token);
+    localStorage.setItem('gh_owner', owner);
+    localStorage.setItem('gh_repo',  repo);
+    localStorage.setItem('gh_path',  path);
+    st.style.color = '#1a7a4a'; st.textContent = '✅ Tersimpan!';
+    setTimeout(() => { ghSetupModal.style.display = 'none'; }, 900);
+  });
+
+  // ---------- Helper: build HTML bersih dari DOM saat ini ----------
   function buildCleanHTML(){
     const clone = document.documentElement.cloneNode(true);
     clone.querySelectorAll('[contenteditable]').forEach(el => el.setAttribute('contenteditable','false'));
@@ -2096,87 +2196,92 @@
     return '<!DOCTYPE html>\n' + clone.outerHTML;
   }
 
-  // ---------- Save & Publish ke Netlify ----------
-  document.getElementById('btnSave').addEventListener('click', async () => {
+  // ---------- PUBLISH: push ke GitHub → Vercel/Netlify auto-deploy ----------
+  document.getElementById('btnSave')?.addEventListener('click', async () => {
     const btn = document.getElementById('btnSave');
-    const originalText = btn.innerHTML;
-    btn.disabled = true;
-    btn.innerHTML = '⏳ Menyimpan…';
-    editStatus.textContent = '⏳ Sedang publish ke Netlify…';
+    const { token, owner, repo, path } = getGhCreds();
+
+    // Kalau belum setup, buka modal setup dulu
+    if (!token){
+      openGhSetup();
+      editStatus.textContent = '⚠️ Isi pengaturan GitHub dulu (sekali aja).';
+      return;
+    }
+
+    btn.disabled = true; btn.innerHTML = '⏳ Mengirim…';
+    editStatus.textContent = '⏳ Mengirim perubahan ke GitHub…';
 
     try {
-      const html  = buildCleanHTML();
+      const html = buildCleanHTML();
+
+      // Step 1: Ambil SHA file yang ada di GitHub (wajib untuk update)
+      editStatus.textContent = '⏳ Membaca file saat ini…';
+      const getResp = await fetch(
+        `https://api.github.com/repos/${owner}/${repo}/contents/${path}`,
+        { headers: { Authorization:`Bearer ${token}`, Accept:'application/vnd.github+json' } }
+      );
+      if (!getResp.ok && getResp.status !== 404){
+        if (getResp.status === 401) throw new Error('Token GitHub tidak valid. Klik ⚙️ Setup untuk update token.');
+        throw new Error(`Tidak bisa baca repo (${getResp.status}). Cek nama repo di ⚙️ Setup.`);
+      }
+      const existing = getResp.ok ? await getResp.json() : null;
+      const currentSha = existing ? existing.sha : undefined;
+
+      // Step 2: Encode HTML ke base64
+      // (btoa tidak support karakter non-latin, pakai TextEncoder)
       const bytes = new TextEncoder().encode(html);
+      let binary = '';
+      bytes.forEach(b => binary += String.fromCharCode(b));
+      const b64 = btoa(binary);
 
-      const hashBuf = await crypto.subtle.digest('SHA-1', bytes);
-      const sha1 = Array.from(new Uint8Array(hashBuf)).map(b=>b.toString(16).padStart(2,'0')).join('');
-
-      const createResp = await fetch(
-        `https://api.netlify.com/api/v1/sites/${NF_SITE_ID}/deploys`,
+      // Step 3: Push ke GitHub
+      editStatus.textContent = '⏳ Mengirim ke GitHub…';
+      const body = {
+        message: `Update portofolio — ${new Date().toLocaleString('id-ID')}`,
+        content: b64,
+        ...(currentSha ? { sha: currentSha } : {})
+      };
+      const putResp = await fetch(
+        `https://api.github.com/repos/${owner}/${repo}/contents/${path}`,
         {
-          method: 'POST',
+          method: 'PUT',
           headers: {
-            Authorization: `Bearer ${NF_TOKEN}`,
-            'Content-Type': 'application/json',
+            Authorization:`Bearer ${token}`,
+            Accept:'application/vnd.github+json',
+            'Content-Type':'application/json'
           },
-          body: JSON.stringify({ files: { '/index.html': sha1 }, async: false }),
+          body: JSON.stringify(body)
         }
       );
-      if (!createResp.ok) throw new Error(`Gagal buat deploy: ${createResp.status}`);
-      const deploy = await createResp.json();
-      const deployId = deploy.id;
-
-      const required = deploy.required || [];
-      if (required.includes(sha1) || required.length > 0){
-        const uploadResp = await fetch(
-          `https://api.netlify.com/api/v1/deploys/${deployId}/files/index.html`,
-          {
-            method: 'PUT',
-            headers: {
-              Authorization: `Bearer ${NF_TOKEN}`,
-              'Content-Type': 'application/octet-stream',
-            },
-            body: bytes,
-          }
-        );
-        if (!uploadResp.ok) throw new Error(`Gagal upload: ${uploadResp.status}`);
+      if (!putResp.ok){
+        const errJson = await putResp.json().catch(() => ({}));
+        if (putResp.status === 401) throw new Error('Token GitHub tidak valid. Klik ⚙️ Setup untuk update token.');
+        if (putResp.status === 409) throw new Error('Konflik file — coba lagi.');
+        throw new Error(`Push gagal (${putResp.status}): ${errJson.message || ''}`);
       }
 
-      // Notifikasi sukses
-      btn.innerHTML = '✅ Tersimpan!';
-      btn.style.background = '#1a7a4a';
-      editStatus.textContent = '✅ Perubahan sudah live di tedykurniawanportofolio.netlify.app';
-      setTimeout(() => {
-        btn.innerHTML = originalText;
-        btn.style.background = '';
-        btn.disabled = false;
-      }, 3000);
+      // Sukses!
+      btn.innerHTML = '✅ Terkirim!'; btn.style.background = '#1a7a4a';
+      editStatus.textContent = `✅ Berhasil! Vercel/Netlify sedang deploy otomatis (~1 menit). Cek situsmu sebentar lagi.`;
+      setTimeout(() => { btn.innerHTML = '🚀 Publish'; btn.style.background = ''; btn.disabled = false; }, 5000);
 
     } catch(err){
-      console.error(err);
-      btn.innerHTML = '❌ Gagal — coba lagi';
-      btn.style.background = '#8b1a1a';
-      editStatus.textContent = `❌ Error: ${err.message}`;
-      setTimeout(() => {
-        btn.innerHTML = originalText;
-        btn.style.background = '';
-        btn.disabled = false;
-      }, 4000);
+      console.error('[GitHub publish]', err);
+      btn.innerHTML = '❌ Gagal'; btn.style.background = '#8b1a1a';
+      editStatus.textContent = `❌ ${err.message}`;
+      setTimeout(() => { btn.innerHTML = '🚀 Publish'; btn.style.background = ''; btn.disabled = false; }, 6000);
     }
   });
 
-  // ---------- Unduh lokal saja (backup) ----------
-  document.getElementById('btnSaveLocal').addEventListener('click', () => {
+  // ---------- Unduh lokal (backup) ----------
+  document.getElementById('btnSaveLocal')?.addEventListener('click', () => {
     const html = buildCleanHTML();
     const blob = new Blob([html], { type:'text/html' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'portfolio.html';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = 'index.html'; document.body.appendChild(a); a.click(); a.remove();
     editStatus.textContent = 'File terunduh sebagai backup lokal.';
   });
+
 
   // ---------- Export PDF (A4 Landscape) — pakai print-to-PDF browser, semua link tetap aktif ----------
   // Sebelum print: tiap project-card diberi label kecil "Bab X.Y Nama — No. urut" di pojok atas,
@@ -2211,7 +2316,7 @@
     document.title = oldTitle;
     if (wasEdit) document.body.classList.add('edit-mode');
   }
-  document.getElementById('btnExportPdfNav').addEventListener('click', exportPdf);
+  document.getElementById('btnExportPdfNav')?.addEventListener('click', exportPdf);
   const btnExportPdfToolbar = document.getElementById('btnExportPdf');
   if (btnExportPdfToolbar) btnExportPdfToolbar.addEventListener('click', exportPdf);
 
@@ -2279,7 +2384,7 @@
   document.querySelectorAll('[data-add-subbab]').forEach(attachAddSubbabBtn);
 
   // ---------- Tambah Bab baru ----------
-  document.getElementById('btnAddBab').addEventListener('click', () => {
+  document.getElementById('btnAddBab')?.addEventListener('click', () => {
     const babId = 'bab-custom-' + (++babCounter);
     const gridId = 'grid-bab-' + babCounter;
     const newBab = document.createElement('section');
@@ -2430,5 +2535,6 @@
     });
   }
 </script>
-</body>
-</html>
+
+
+<script async="" data-explicit-opt-in="true" data-cookie-opt-in="true" data-deployment-id="dpl_HDDW2P3fxtSRnTSYaFFgKQT2urbS" src="https://vercel.live/_next-live/feedback/feedback.js"></script><vercel-live-feedback style="position: absolute; top: 0px; left: 0px; z-index: 2147483647;"></vercel-live-feedback></body></html>
